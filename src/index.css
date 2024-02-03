@@ -1,0 +1,67 @@
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+nav h1 {
+  font-size: 30px;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 17px;
+  color: rgb(117, 117, 117);
+}
+nav ul li {
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: black;
+}
+nav input {
+  height: 25px;
+  width: 30rem;
+  border-radius: 20px;
+  background-color: rgb(227, 227, 227);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+nav button {
+  padding: 10px 10px;
+  color: rgb(117, 117, 117);
+  background-color: white;
+  border: 1px solid rgb(117, 117, 117);
+  font-size: 16px;
+  border-radius: 10px;
+}
+nav button:hover {
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+/* MAP */
+.outer-div {
+  height: 25.5rem;
+}
+h4 {
+  font-size: 13px;
+  font-weight: 100;
+  margin-top:-6px;
+}
+h3 {
+  font-size: 13px;
+  font-weight: 100;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 12rem;
+  column-gap: 20px;
+}
+.grid img {
+  height: 20rem;
+  width: 100%;
+}
